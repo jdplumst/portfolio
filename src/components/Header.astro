@@ -36,12 +36,15 @@
 		align-items: center;
 	}
 
-	h1 {
+	ul {
+		display: flex;
+		gap: 20px;
 	}
 
 	li {
 		display: inline;
 		font-weight: 600;
+		font-size: 1.5rem;
 	}
 
 	a {
@@ -52,6 +55,11 @@
 	@media (max-width: 768px) {
 		h1 {
 			font-size: 0.75rem;
+		}
+
+		ul {
+			display: flex;
+			gap: 5px;
 		}
 
 		li {
