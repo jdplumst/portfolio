@@ -15,10 +15,10 @@ export default function Header() {
           <div>
             <h1 className="text-2xl font-bold">Jeremiah Plumstead</h1>
           </div>
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <Navbar isResponsive={false} />
           </div>
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button onClick={toggleNav}>
               <svg
                 className="w-6 h-6"
