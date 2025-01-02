@@ -8,7 +8,7 @@ export default function Navbar(props: { isResponsive: boolean }) {
           <a href="#home"> Home </a>
         </li>
         <li>
-          <a href="#experience"> Experience </a>
+          <a href="#skills"> Skills </a>
         </li>
         <li>
           <a href="#projects"> Projects </a>

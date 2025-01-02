@@ -9,7 +9,7 @@ export default function Header() {
   };
 
   return (
-    <div className="p-16 sticky top-0">
+    <div className="p-10 sticky top-0 z-10 bg-ctp-surface0">
       <header className="flex flex-col gap-10">
         <div className="flex justify-between items-center">
           <div>
