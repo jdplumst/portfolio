@@ -5,7 +5,7 @@ export default function Navbar(props: { isResponsive: boolean }) {
         className={`flex ${props.isResponsive && `flex-col`} ${!props.isResponsive && `gap-5`} font-semibold text-base`}
       >
         <li>
-          <a href="#home"> Home </a>
+          <a href="#about"> About </a>
         </li>
         <li>
           <a href="#skills"> Skills </a>
