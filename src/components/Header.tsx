@@ -5,7 +5,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleNav = () => {
-    setIsOpen(!isOpen);
+    setIsOpen((prev) => !prev);
   };
 
   return (
