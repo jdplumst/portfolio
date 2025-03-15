@@ -316,8 +316,8 @@ export default function Home() {
                 <CardHeader>
                   <CardTitle>Resume</CardTitle>
                   <CardDescription>
-                    Download my resume to learn more about my experience and
-                    skills.
+                    Contact me to see my resume to learn more about my
+                    experience and skills.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -326,8 +326,15 @@ export default function Home() {
                     work experience, and technical skills.
                   </p>
                   <Button className="w-full">
-                    <ArrowUpRight className="mr-2 h-4 w-4" />
-                    Download Resume
+                    <Linkedin className="h-5 w-5 text-muted-foreground" />
+                    <Link
+                      href="https://www.linkedin.com/in/jeremiah-plumstead/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition-colors hover:text-primary"
+                    >
+                      linkedin.com/in/jeremiah-plumstead
+                    </Link>
                   </Button>
                 </CardContent>
               </Card>
