@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background p-6">
       <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-16 items-center justify-between">
+        <div className="container mx-auto flex h-16 items-center justify-between">
           <Link href="/" className="text-xl font-bold">
             Jeremiah Plumstead
           </Link>
@@ -51,7 +51,7 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="container space-y-24 py-12">
+      <main className="container mx-auto space-y-24 py-12">
         {/* Hero Section */}
         <section className="flex flex-col-reverse items-center justify-between gap-8 py-24 md:flex-row">
           <div className="max-w-xl space-y-6">
@@ -344,7 +344,7 @@ export default function Home() {
       </main>
 
       <footer className="border-t py-6 md:py-8">
-        <div className="container flex flex-col items-center justify-between gap-4 md:flex-row">
+        <div className="container mx-auto flex flex-col items-center justify-between gap-4 md:flex-row">
           <p className="text-center text-sm text-muted-foreground md:text-left">
             &copy; {new Date().getFullYear()} Jeremiah Plumstead. All rights
             reserved.
