@@ -136,9 +136,9 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p>
-                    I'm a Full Stack Developer with a strong foundation in
+                    I&apos;m a Full Stack Developer with a strong foundation in
                     Mathematics and Computer Science, having graduated from the
-                    University of Waterloo with a Bachelor's degree in
+                    University of Waterloo with a Bachelor&apos;s degree in
                     Mathematical Studies with a minor in Computing.
                   </p>
                   <p>
@@ -156,15 +156,15 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p>
-                    I'm passionate and dedicated about creating intuitive user
-                    experiences and solving complex problems through clean,
+                    I&apos;m passionate and dedicated about creating intuitive
+                    user experiences and solving complex problems through clean,
                     efficient code.
                   </p>
                   <p>
-                    When I'm not coding, I enjoy exploring new technologies,
-                    contributing to open-source projects, watching content on
-                    new technologies, and continuously expanding my knowledge in
-                    the ever-evolving field of web development.
+                    When I&apos;m not coding, I enjoy exploring new
+                    technologies, contributing to open-source projects, watching
+                    content on new technologies, and continuously expanding my
+                    knowledge in the ever-evolving field of web development.
                   </p>
                 </CardContent>
               </Card>
