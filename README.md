@@ -1,48 +1,67 @@
-# Astro Starter Kit: Basics
 
-```sh
-npm create astro@latest -- --template basics
+# Create Jaydee App
+
+This is a project created with Create Jaydee App.
+
+
+
+
+## Tech Stack
+
+- Next.js App Router
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- tRPC
+- Drizzle
+- Better Auth
+- Playwright
+- GitHub Actions
+
+When selecting Drizzle for your database, the configuration will use Turso. Make sure to set up a Turso database yourself [on their website](https://turso.tech/). You can also use a SQLite database locally.
+
+
+
+## Run Locally
+
+Go to the project directory
+
+
+
+```bash
+  cd my-project
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Install dependencies
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+```bash
+  pnpm install
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+Start the dev server
 
-## 🧞 Commands
+```bash
+  pnpm run dev
+```
 
-All commands are run from the root of the project, from a terminal:
+## Why Create Jaydee App
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Create Jaydee App takes some of the tools I believe to powerful and enjoyable to use in order to quickly start up a new Next.js application. This project was inspired by [Create T3 App](https://create.t3.gg/) with some differences to make it more suited to how I like to build applications.
 
-## 👀 Want to learn more?
+React is the industry standard for building web applications and I believe Next.js is the best way to build React applications.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+TypeScript is non-negotiable as type safety is vital in ensuring that your applications are secure and scalable. It also allows for end-to-end type safety.
+
+Tailwind CSS is the most efficient way to write CSS. Having your HTML, CSS and JavaScript all together in one file helps to make more readable code.
+
+Shadcn/ui is the easiest way to add new components to your application that you can own and modify on your own. From buttons to sidebars, shadcn/ui makes it easy to create beautiful user interfaces.
+
+tRPC is the best way to query data on the client side. Although fetching data directly on the server and using server actions for mutations is great, there may be times when you need to fetch data directly on the client and tRPC will help make that process seamless.
+
+Drizzle is the best way to write queries to your database. It makes you feel like you are writing raw SQL while still giving you type safety.
+
+Better Auth is an authentication library with great documentation. It allows you to own your own authentication while still helping you make sure your application is secure.
+
+Playwright is the best way to write end-to-end tests for your applications. It can be set up easily to ensure your application doesn't have regressions.
+
+GitHub Actions is an easy way to set up CI/CD for your applications. Use it to test, lint, and typecheck your code before each deployment.
