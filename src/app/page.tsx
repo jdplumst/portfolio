@@ -13,16 +13,21 @@ import { AnimatedText } from "~/components/animated-text";
 import { FadeIn } from "~/components/fade-in";
 import { ProjectCard } from "~/components/project-card";
 import { SkillsSection } from "~/components/skills-section";
+import { ThemeSwitcher } from "~/components/theme-switcher";
+import { MobileNav } from "~/components/mobile-nav";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-background p-6">
       <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container mx-auto flex h-16 items-center justify-between">
-          <Link href="/" className="text-xl font-bold">
-            Jeremiah Plumstead
-          </Link>
-          <nav className="flex items-center gap-6">
+        <div className="container flex h-14 items-center justify-between md:h-16">
+          <div className="flex items-center gap-2">
+            <MobileNav />
+            <Link href="/" className="truncate text-lg font-bold md:text-xl">
+              Jeremiah Plumstead
+            </Link>
+          </div>
+          <nav className="hidden items-center gap-6 md:flex">
             <Link
               href="#about"
               className="text-muted-foreground transition-colors hover:text-foreground"
@@ -48,6 +53,7 @@ export default function Home() {
               Contact
             </Link>
           </nav>
+          <ThemeSwitcher />
         </div>
       </header>
 
