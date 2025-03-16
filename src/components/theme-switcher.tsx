@@ -8,7 +8,7 @@ import { Button } from "~/components/ui/button";
 
 export function ThemeSwitcher() {
   const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
+  const { resolvedTheme, setTheme } = useTheme();
 
   // Avoid hydration mismatch
   useEffect(() => {
@@ -19,7 +19,7 @@ export function ThemeSwitcher() {
     return null;
   }
 
-  const isDark = theme === "dark";
+  const isDark = resolvedTheme === "dark";
 
   return (
     <Button
